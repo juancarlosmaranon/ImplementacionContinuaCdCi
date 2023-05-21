@@ -1,0 +1,58 @@
+﻿@model IEnumerable<MvcCoreLinqToXML.Models.Cliente>
+
+@{
+    ViewData["Title"] = "Clientes";
+}
+
+<h1>Clientes</h1>
+
+<p>
+    <a asp-controller="Clientes" asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.IdCliente)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Direccion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ImagenCliente)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdCliente)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Direccion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ImagenCliente)
+            </td>
+            <td>
+                <a asp-controller="Clientes" asp-action="Details" asp-route-idcliente="@item.IdCliente">Detalles</a>
+                <a asp-controller="Clientes" asp-action="Update" asp-route-idcliente="@item.IdCliente">Editar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

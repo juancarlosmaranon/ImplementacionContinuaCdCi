@@ -1,0 +1,54 @@
+﻿@model IEnumerable<MvcCoreLinqToXML.Models.Pelicula>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.IdPelicula)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Titulo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TituloOriginal)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Poster)
+            </th>
+            <th>
+                Escenas Pelicula
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdPelicula)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Titulo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TituloOriginal)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Poster)
+            </td>
+            <td>
+                <a asp-controller="Peliculas" asp-action="EscenasPelicula" asp-route-idpelicula="@item.IdPelicula">Escena Pelicula</a>
+                <a asp-controller="Peliculas" asp-action="DetallePeliculaEscena" asp-route-idpelicula="@item.IdPelicula">Detalle Escena Pelicula</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

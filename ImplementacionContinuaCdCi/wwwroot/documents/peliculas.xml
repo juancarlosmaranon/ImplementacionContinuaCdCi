@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<peliculas>
+  <pelicula idpelicula="1">
+    <titulo>Regreso al futuro</titulo>
+    <titulooriginal>Back to the future</titulooriginal>
+    <descripcion>
+      Le llevamos esperando desde 1989, y en tiempo cinematografico desde 1985, momento en el que transcurre la accion de la pelicula-. Marty, te avisamos: las zapatillas Nike no se abrochan solas con robocordones (aunque la empresa asegura que las pondra a la venta antes de que acabe el año), aun abrimos casi todas las puertas con pomos y picaportes y nadie tiene en casa -al menos comprado comercialmente- un aeropatin. Por cierto, tampoco se ha rodado Tiburon 19, pero la saga Sharknado ha cogido carrerilla y vete a saber si de aqui a que vuelvas ya ha rodado dos decenas de continuaciones (Universal ha lanzado un falso trailer de Tiburon 19 para la ocasion). Ni los coches vuelan ni quedan muchos faxes en las empresas para despedir a la gente.
+    </descripcion>
+    <poster>https://images-na.ssl-images-amazon.com/images/I/51vY7y28FOL._AC_.jpg</poster>
+  </pelicula>
+  <pelicula  idpelicula="2">
+    <titulo>Los Goonies</titulo>
+    <titulooriginal>The Goonies</titulooriginal>
+    <descripcion>
+      Mikey (Sean Austin) es un chico que vive en un pueblo costero de EEUU. Su padre se ve angustiado por los problemas que lo enfrentan a unos inversionistas que pretenden hacer un campo de golf en el barrio donde viven Mikey y sus amigos, Los Goonies.
+      Una tormentosa tarde de otoño, Mikey pasa el tiempo en su casa junto a sus  amigos "Cacho" (Jeff Cohen), "Data" (Jonathan Ke Quan) y "Boca" (Corey Feldman) y su hermano mayor (Josh Brolin). Aburridos, suben al desvan donde encuentran una gran variedad de objetos antiguos y extraños. Entre ellos descubren sin querer un mapa que indica la ubicacion de un supuesto tesoro perteneciente a un pirata conocido como "Willy el Tuerto", desaparecido con su tripulacion hace muchos años. El grupo decide entonces ir en busca de ese tesoro que podria solucionar economicamente el problema por el que esta pasando el padre de Mikey y que en caso de no resolverse podria derivar en la disolucion de "Los Goonies" como grupo.
+      La busqueda del tesoro los llevara a una aventura bajo tierra escapando de las trampas de los piratas y de los Fratelli, una familia de gangsters que ansia hacerse tambien con el botin.
+    </descripcion>
+    <poster>https://static.carrefour.es/hd_510x_/imagenes/products/21000/00213/913/2100000213913/imagenGrande1.jpg</poster>
+  </pelicula>
+  <pelicula  idpelicula="3">
+    <titulo>Star Wars: Una nueva esperanza</titulo>
+    <titulooriginal>Star Wars: a new hope</titulooriginal>
+    <descripcion>
+      La princesa Leia, lider del movimiento rebelde que desea reinstaurar la Republica en la galaxia en los tiempos ominosos del Imperio, es capturada por las Fuerzas Imperiales, capitaneadas por el implacable Darth Vader, el sirviente mas fiel del Emperador. El intrepido y joven Luke Skywalker, ayudado por Han Solo, capitan de la nave espacial "El Halcon Milenario", y los androides, R2D2 y C3PO, seran los encargados de luchar contra el enemigo y e intentar rescatar a la princesa para volver a instaurar la justicia en el seno de la galaxia.
+    </descripcion>
+    <poster>https://imgc.allpostersimages.com/img/print/posters/star-wars-episodio-iv-una-nueva-esperanza_a-G-10517793-0.jpg</poster>
+  </pelicula>
+</peliculas>

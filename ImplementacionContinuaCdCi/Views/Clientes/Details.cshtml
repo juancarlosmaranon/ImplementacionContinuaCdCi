@@ -1,0 +1,12 @@
+﻿@model Cliente
+
+<a asp-controller="Clientes" asp-action="Index">
+    Volver a Index
+</a>
+
+<div>
+    <img src="@Model.ImagenCliente" class="card-img-top" style="width:200px"/>
+    <h4>@Model.Nombre</h4>
+    <h5>@Model.Direccion</h5>
+    <a asp-controller="Clientes" asp-action="Delete" asp-route-idcliente="@Model.IdCliente">Eliminar</a>
+</div>
